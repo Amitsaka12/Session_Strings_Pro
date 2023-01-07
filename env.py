@@ -3,8 +3,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = os.getenv("28131399", "").strip()
-API_HASH = os.getenv("dca8cc286889ab8f148a3e34444663cf", "").strip()
+API_ID = os.getenv("16618598", "").strip()
+API_HASH = os.getenv("214100c128f8cfa17c7d96bb70d3f4e2", "").strip()
 BOT_TOKEN = os.getenv("5552714506:AAFi4erPQ8OR-RQGxFBirhAFatzP5I0r4g8", "").strip()
 DATABASE_URL = os.getenv("mongodb+srv://Amitsaka:Amitsaka@cluster0.kmbhtsi.mongodb.net/?retryWrites=true&w=majority", "").strip()
 MUST_JOIN = os.getenv("Updatesxn", "")
