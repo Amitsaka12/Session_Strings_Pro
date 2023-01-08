@@ -3,11 +3,11 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = os.getenv("28131399", "").strip()
-API_HASH = os.getenv("dca8cc286889ab8f148a3e34444663cf", "").strip()
-BOT_TOKEN = os.getenv("5552714506:AAFi4erPQ8OR-RQGxFBirhAFatzP5I0r4g8", "").strip()
-DATABASE_URL = os.getenv("mongodb+srv://Amitsaka:Amitsaka@cluster0.kmbhtsi.mongodb.net/?retryWrites=true&w=majority", "").strip()
-MUST_JOIN = os.getenv("Updatesxn", "")
+API_ID = os.getenv("API_ID", "28131399").strip()
+API_HASH = os.getenv("API_HASH", "dca8cc286889ab8f148a3e34444663cf").strip()
+BOT_TOKEN = os.getenv("BOT_TOKEN", "5552714506:AAFi4erPQ8OR-RQGxFBirhAFatzP5I0r4g8").strip()
+DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://Amitsaka:Amitsaka@cluster0.kmbhtsi.mongodb.net/?retryWrites=true&w=majority").strip()
+MUST_JOIN = os.getenv("MUST_JOIN", "Updatesxn")
 
 if not API_ID:
     print("No API_ID found. Exiting...")
